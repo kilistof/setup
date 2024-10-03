@@ -16,3 +16,8 @@ yay -S zoxide
 yay -S fzf
 yay -S neovim
 yay -S firefox
+
+# Zathura default pdf reader
+yay -S zathura 
+yay -S zathura-pdf-mupdf
+xdg-mime default org.pwmt.zathura.desktop application/pdf
